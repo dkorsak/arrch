@@ -199,6 +199,7 @@ class Arrch
         if ($key_count > 0) {
 
                 $curr_key = array_shift($keys);
+                $arrayValues = array_values($item);
                 $child = is_array($item) ? array_shift(array_values($item)) : null;
 
                 // it's an array
